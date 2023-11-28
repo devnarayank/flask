@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Content</title>
+</head>
+<body>
+    <h1>Generate Content</h1>
+    <form method="post" action="/process" enctype="multipart/form-data">
+    	<label for="wp_url">Select WordPress URL:</label>
+        <select id="wp_url" name="wp_url">
+
+            <option value="{{ wp_url }}">{{ wp_url }}</option>
+            
+                 <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="excel_file">Attach Excel File:</label>
+        <input type="file" id="excel_file" name="excel_file" accept=".xlsx">
+        <br>
+        <!-- Form elements... -->
+
+        <!-- Text input for OpenAI API key -->
+        <label for="api_key">OpenAI API Key:</label>
+        <input type="text" name="api_key" id="api_key" required>
+        <br>
+
+        <label for="content_prompt">Prompts:</label>
+        <textarea name="content_prompt" id="content_prompt" rows="4" cols="50" required></textarea>
+        <br>
+
+        <button type="submit">Process</button>
+    </form>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Fetch WordPress URLs from the server and populate the dropdown
+            fetch('/get_wp_urls')
+                .then(response => response.json())
+                .then(data => {
+                    const wpUrlDropdown = document.getElementById('wp_url');
+                    data.wp_urls.forEach(wpUrl => {
+                        const option = document.createElement('option');
+                        option.value = wpUrl;
+                        option.textContent = wpUrl;
+                        wpUrlDropdown.appendChild(option);
+                    });
+                });
+                
+        });
+    </script>
+    <hr>
+
+    <h2>Running Script Log:</h2>
+    <div id="log-container">
+        <ul id="log-list"></ul>
+    </div>
+
+    
+</body>
+</html>
+

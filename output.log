@@ -1,0 +1,262 @@
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 184, in <module>
+    parser = argparse.ArgumentParser(description='Generate content using OpenAI GPT-3.5 Turbo.')
+NameError: name 'argparse' is not defined
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 191, in <module>
+    socketio = SocketIO(message_queue="redis://")
+  File "/home/admin123/.local/lib/python3.10/site-packages/flask_socketio/__init__.py", line 187, in __init__
+    self.init_app(app, **kwargs)
+  File "/home/admin123/.local/lib/python3.10/site-packages/flask_socketio/__init__.py", line 213, in init_app
+    queue = queue_class(url, channel=channel,
+  File "/home/admin123/.local/lib/python3.10/site-packages/socketio/redis_manager.py", line 45, in __init__
+    raise RuntimeError('Redis package is not installed '
+RuntimeError: Redis package is not installed (Run "pip install redis" in your virtualenv).
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 205, in <module>
+    article_title, article_content = generate_content(topic, api_key, api_endpoint, args.wp_url, socketio)
+TypeError: generate_content() takes 4 positional arguments but 5 were given
+Generating article for: can i ghost a job
+Error generating content: Empty content generated.
+{"error":{"code":503,"message":"Service Unavailable.","param":null,"type":"cf_service_unavailable"}}
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 209, in <module>
+    post_id = post_to_wordpress(article_title, article_content, args.wp_url, socketio)
+TypeError: post_to_wordpress() takes 2 positional arguments but 4 were given
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 209, in <module>
+    post_id = post_to_wordpress(article_title, article_content, args.wp_url, socketio)
+TypeError: post_to_wordpress() takes 2 positional arguments but 4 were given
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 209, in <module>
+    post_id = post_to_wordpress(article_title, article_content, args.wp_url, socketio)
+TypeError: post_to_wordpress() missing 2 required positional arguments: 'wp_password' and 'socketio'
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 209, in <module>
+    post_id = post_to_wordpress(article_title, article_content, args.wp_url, socketio)
+TypeError: post_to_wordpress() missing 2 required positional arguments: 'wp_password' and 'socketio'
+Generating article for: can i ghost a job
+WordPress Response: 158
+Posted article with ID: 158
+Generating article for: ghosting job offers
+WordPress Response: 160
+Posted article with ID: 160
+Generating article for: ghosting a job offer reddit
+Error generating content: Empty content generated.
+{"error":{"code":503,"message":"Service Unavailable.","param":null,"type":"cf_service_unavailable"}}
+WordPress Response: 162
+Posted article with ID: 162
+Generating article for: job ghosting
+WordPress Response: 164
+Posted article with ID: 164
+Generating article for: what is job ghosting
+WordPress Response: 166
+Posted article with ID: 166
+Generating article for: job ghosting meaning
+Error generating content: Empty content generated.
+{"error":{"code":503,"message":"Service Unavailable.","param":null,"type":"cf_service_unavailable"}}
+WordPress Response: 168
+Posted article with ID: 168
+Generating article for: usatoday.com millenials job ghosting
+Error generating title: Empty title generated.
+{"error":{"code":503,"message":"Service Unavailable.","param":null,"type":"cf_service_unavailable"}}
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 209, in <module>
+    post_id = post_to_wordpress(article_title, article_content, args.wp_url, wp_username, wp_password, socketio)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 176, in post_to_wordpress
+    post.slug = article_title.lower().replace(' ', '-')
+AttributeError: 'NoneType' object has no attribute 'lower'
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 204, in <module>
+    article_title, article_content = generate_content(topic, api_key, "https://api.openai.com/v1/chat/completions")
+TypeError: generate_content() missing 1 required positional argument: 'socketio'
+Generating article for: can i ghost a job
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 204, in <module>
+    article_title, article_content = generate_content(topic, api_key, api_endpoint)
+TypeError: generate_content() missing 1 required positional argument: 'socketio'
+Generating article for: can i ghost a job
+WordPress Response: 274
+Posted article with ID: 274
+Generating article for: ghosting job offers
+WordPress Response: 276
+Posted article with ID: 276
+Generating article for: ghosting a job offer reddit
+Error generating content: Empty content generated.
+{"error":{"code":502,"message":"Bad gateway.","param":null,"type":"cf_bad_gateway"}}
+WordPress Response: 278
+Posted article with ID: 278
+Generating article for: job ghosting
+Error generating title: Empty title generated.
+{"error":{"code":502,"message":"Bad gateway.","param":null,"type":"cf_bad_gateway"}}
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 208, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 175, in post_to_wordpress
+    post.slug = article_title.lower().replace(' ', '-')
+AttributeError: 'NoneType' object has no attribute 'lower'
+Generating article for: can i ghost a job
+Article Title: "Career Haunting: Unraveling the Pros and Cons of Ghosting a Job"
+WordPress Response: 280
+Posted article with ID: 280
+Generating article for: ghosting job offers
+Article Title: "Ghosting Employers: The Rising Trend of Job Offer Ghosting and the Consequences"
+WordPress Response: 282
+Posted article with ID: 282
+Generating article for: ghosting a job offer reddit
+Article Title: "Ghosting a Job Offer on Reddit: The Unspoken Dilemma of Job Seekers"
+Error generating content: Empty content generated.
+{"error":{"code":502,"message":"Bad gateway.","param":null,"type":"cf_bad_gateway"}}
+WordPress Response: 284
+Posted article with ID: 284
+Generating article for: job ghosting
+Article Title: "The Rise and Impact of Job Ghosting: How a Silent Trend is Changing the Game for Employers and Employees"
+WordPress Response: 286
+Posted article with ID: 286
+Generating article for: what is job ghosting
+Article Title: "Job Ghosting: The Silent Epidemic Hitting the Workforce"
+WordPress Response: 288
+Posted article with ID: 288
+Generating article for: job ghosting meaning
+Article Title: "The Silent Menace: Decoding the Dark Side of Job Ghosting"
+WordPress Response: 290
+Posted article with ID: 290
+Generating article for: usatoday.com millenials job ghosting
+Article Title: "Ghosted: The Rise of Job Ghosting Among Millennial Workers on USAToday.com"
+WordPress Response: 292
+Posted article with ID: 292
+Generating article for: job ghosting rates
+Article Title: "The Silent Epidemic: Unmasking the Alarming Rise of Job Ghosting Rates"
+WordPress Response: 294
+Posted article with ID: 294
+Generating article for: usatoday job ghosting
+Article Title: "Unmasking the Haunting Phenomenon: Inside the World of USAToday Job Ghosting"
+WordPress Response: 296
+Posted article with ID: 296
+Generating article for: Job ghosting meaning
+Article Title: "Job Ghosting: Unlocking the Mysterious Phenomenon Affecting Job Seekers and Employers"
+WordPress Response: 298
+Posted article with ID: 298
+Generating article for: is it illegal to ghost your job
+Article Title: "Ghosts in the Workplace: The Legal Consequences of Job Abandonment"
+WordPress Response: 300
+Posted article with ID: 300
+Generating article for: job ghosting reddit
+Article Title: "Job Ghosting Exposed: How Reddit Is Unveiling the Dark Side of the Hiring Process"
+WordPress Response: 302
+Posted article with ID: 302
+Generating article for: How to stop job ghosting
+Article Title: "Cracking the Code: The Ultimate Guide to Ending the Ghosting Epidemic in Job Interviews"
+WordPress Response: 304
+Posted article with ID: 304
+Generating article for: ghosting a job you hate
+Article Title: "The Art of the Vanishing Act: Decoding the Phenomenon of Ghosting a Job You Loathe"
+WordPress Response: 306
+Posted article with ID: 306
+Generating article for: employer ghosting after job offer
+Article Title: "The Vanishing Act: Unmasking the Disturbing Trend of Employer Ghosting after Extending Job Offers"
+WordPress Response: 308
+Posted article with ID: 308
+Generating article for: employers ghosting applicants reddit
+Article Title: "The Dark Side of Hiring: Employers Ghosting Applicants, Unveiling Reddit's Secrets"
+WordPress Response: 310
+Posted article with ID: 310
+Generating article for: can a job ghost you after hiring you
+Article Title: "The Haunting Paradox: Exploring the Possibility of Jobs Ghosting Employees"
+WordPress Response: 312
+Posted article with ID: 312
+Generating article for: job ghosting reddit
+Article Title: "Job Ghosting: The Rise of Mysterious Disappearances in the Reddit Job Search Community"
+WordPress Response: 314
+Posted article with ID: 314
+Generating article for: job ghosting benefits
+Article Title: "The Rise of Job Ghosting: Unexpected Benefits for Job Seekers and Employers"
+WordPress Response: 316
+Posted article with ID: 316
+Generating article for: what does job ghosting mean?
+Article Title: "The Rise of Job Ghosting: Understanding the Silent Epidemic in the Workplace"
+WordPress Response: 318
+Posted article with ID: 318
+Generating article for: usatoday.com millennials job ghosting
+Article Title: "The Silent Epidemic: Unmasking the Disturbing Trend of Millennials Ghosting Jobs on USA Today"
+WordPress Response: 320
+Posted article with ID: 320
+Generating article for: job ghosting new hires
+Article Title: "The Epidemic of Job Ghosting: Unveiling the Dark Side of Hiring Processes"
+WordPress Response: 322
+Posted article with ID: 322
+Generating article for: ghosting job applicants
+Article Title: "Silent Shadows: The Impact and Ethical Dilemmas of Ghosting in the Job Hiring Process"
+WordPress Response: 324
+Posted article with ID: 324
+Generating article for: ghosting job interview
+Article Title: "The Haunting Consequence: Unraveling the Ghosting Phenomenon in Job Interviews"
+WordPress Response: 327
+Posted article with ID: 327
+Generating article for: Candidate ghosting meaning
+Article Title: "The Silent Rejection: Decoding the Phenomenon of Candidate Ghosting"
+WordPress Response: 329
+Posted article with ID: 329
+Generating article for: candidate ghosting 2023
+Article Title: "The Silent Epidemic: Candidate Ghosting 2023 - Why It's Time to Address the Growing Problem in Hiring"
+WordPress Response: 331
+Posted article with ID: 331
+Generating article for: How to stop candidate ghosting
+Article Title: "Unleashing the Power of Communication: Strategies to Put an End to Candidate Ghosting"
+WordPress Response: 333
+Posted article with ID: 333
+Generating article for: candidate ghosting after offer
+Article Title: "The Vanishing Act: Exploring the Rise of Candidate Ghosting after Offer Letters"
+WordPress Response: 335
+Posted article with ID: 335
+Generating article for: ghosting candidates after interview
+Article Title: "The Haunting Effects of Ghosting Candidates: Why It's Time to Break the Silence"
+WordPress Response: 337
+Posted article with ID: 337
+Generating article for: how will you address applicant ghosting if you are the recruiter
+Article Title: "Unmasking the Ghosts: Tackling Applicant Ghosting head-on as a Proactive Recruiter"
+WordPress Response: 339
+Posted article with ID: 339
+Generating article for: What to do when a candidate ghosts you?
+Article Title: "When the Phone Goes Silent: Navigating Candidate Ghosting and Taking Control of your Recruitment Process"
+WordPress Response: 341
+Posted article with ID: 341
+Generating article for: candidate no-show for interview
+Article Title: "Left Hanging: Exploring the Troubling Trend of Candidate No-Shows for Job Interviews"
+WordPress Response: 343
+Posted article with ID: 343
+Generating article for: candidate didn't show up for interview meaning
+Article Title: "Ghosted: Making Sense of a No-Show Candidate for Job Interviews"
+WordPress Response: 345
+Posted article with ID: 345
+Generating article for: rejection email after no-show interview
+Article Title: "Cracking the Code: Decoding Rejection Emails After a No-Show Interview"
+WordPress Response: 347
+Posted article with ID: 347
+Generating article for: candidate has not joined the call
+Article Title: "The Missing Voice: Exploring the Implications of the Candidate Who Has Not Joined the Call"
+WordPress Response: 349
+Posted article with ID: 349
+Generating article for: candidate no-show email
+Article Title: "The Great Disappearing Act: Unmasking the Mystery of Candidate No-Show Emails"
+WordPress Response: 351
+Posted article with ID: 351
+Generating article for: candidate did not show up for interview email
+Article Title: "The No-Show Enigma: Unraveling the Mysteries of Candidates Skipping Interviews"
+WordPress Response: 353
+Posted article with ID: 353
+Generating article for: candidate not responding to calls email template
+Article Title: "The Art of Silence: Why Candidates' Failure to Respond to Calls and Emails is Costing Them Job Opportunities"
+WordPress Response: 355
+Posted article with ID: 355
+Generating article for: give a ghosting
+Article Title: "Invisible Disconnection: The Psychological Impact of Ghosting"
+WordPress Response: 357
+Posted article with ID: 357
+Generating article for: ghosting job offers
+Article Title: 
