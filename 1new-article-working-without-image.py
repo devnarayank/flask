@@ -1,6 +1,8 @@
 import openai
 from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods import posts
+# from models import Article, db
+import time
 import requests
 import pandas as pd
 # from google.auth.transport.requests import Request
@@ -168,10 +170,10 @@ wp_username = "abjgd"
 wp_password = "Abjgd#108"
 client = Client(f"{wp_url}/xmlrpc.php", wp_username, wp_password)
 
-def post_to_wordpress(title, content):
+def post_to_wordpress(article_title, content):
     post = WordPressPost()
-    post.title = title
-    post.content = content
+    post.title = article_title
+    post.content = article_content
     post.post_status = 'publish'
     
     if article_title is not None:
@@ -231,5 +233,30 @@ for topic in keywords:
 
     processed_keywords += 1
  # Emitting final log message
+
+# generate article status
+# def generate_article(article_id):
+#     article = Article.query.get(article_id)
+
+#     if article:
+#         try:
+#             # Update the article status to 'generating'
+#             article.status = 'generating'
+#             db.session.commit()
+
+#             # Simulate article generation process
+#             time.sleep(5)  # Replace with your actual generation logic
+
+#             # Update the article status to 'generated'
+#             article.status = 'generated'
+#             db.session.commit()
+
+#             print(f"Article {article_id} generated successfully.")
+#         except Exception as e:
+#             # Handle exceptions appropriately
+#             print(f"Error generating article {article_id}: {str(e)}")
+#             article.status = 'failed'
+#             db.session.commit()
+
 
 print(f"All keywords processed. Total keywords: {processed_keywords}")
