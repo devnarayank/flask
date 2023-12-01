@@ -1,6 +1,8 @@
 import openai
 from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods import posts
+# from flask import request
+# from io import BytesIO
 # from models import Article, db
 import time
 import requests
@@ -170,7 +172,7 @@ wp_username = "abjgd"
 wp_password = "Abjgd#108"
 client = Client(f"{wp_url}/xmlrpc.php", wp_username, wp_password)
 
-def post_to_wordpress(article_title, content):
+def post_to_wordpress(article_title, article_content):
     post = WordPressPost()
     post.title = article_title
     post.content = article_content
@@ -191,18 +193,24 @@ def post_to_wordpress(article_title, content):
      # Emitting log message
 
 # Read keywords from Excel
-excel_path = r"/home/admin123/Desktop/test3.xlsx"
+excel_path = "/home/admin123/Desktop/test3.xlsx"
+sheet_name = 'Candidate ghosting company keyw'
 # excel_path = r"C:\Users\abjgd\Documents\employment-ghosting.xlsx"
+
+# excel_file = request.files['excel_file'] # Assuming you have Flask request
+# excel_data = BytesIO(excel_file.read())
 
 parser = argparse.ArgumentParser(description='Generate content using OpenAI GPT-3.5 Turbo.')
 parser.add_argument('--wp_url', type=str, help='WordPress URL')
 parser.add_argument('--excel_path', type=str, help='Path to the Excel file')
+parser.add_argument('--content_prompt', type=str, help='prompt for article generation')
+parser.add_argument('--api_key', type=str, help='openai key ')
 
 args = parser.parse_args()
 
 
 
-df = pd.read_excel(excel_path, usecols="A", names=["Keywords"])
+df = pd.read_excel(excel_path, sheet_name=sheet_name, usecols="A", names=["Keywords"], engine='openpyxl')
 keywords = df["Keywords"].dropna().tolist()
 
 # Counter for processed keywords

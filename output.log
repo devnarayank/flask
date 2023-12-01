@@ -543,3 +543,517 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
     raise Fault(**self._stack[0])
 xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Generating article for: can i ghost a job
+Article Title: 
+Error generating title: Empty title generated.
+{
+    "error": {
+        "message": "Incorrect API key provided: sk-fARud***************************************x9GJ. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+Warning: article_title is None, setting default slug: default-slug
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 220, in <module>
+    post_id = post_to_wordpress(article_title, article_content)
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 188, in post_to_wordpress
+    result = client.call(posts.NewPost(post))
+  File "/home/admin123/.local/lib/python3.10/site-packages/wordpress_xmlrpc/base.py", line 37, in call
+    raw_result = server_method(*args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1122, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1464, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1166, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1182, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 1354, in parse_response
+    return u.close()
+  File "/usr/lib/python3.10/xmlrpc/client.py", line 668, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault 500: 'Content, title, and excerpt are empty.'>
+Traceback (most recent call last):
+  File "/home/admin123/Desktop/flask2/1new-article-working-without-image.py", line 210, in <module>
+    df = pd.read_excel(excel_path, usecols="A", names=["Keywords"])
+  File "/home/admin123/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 504, in read_excel
+    io = ExcelFile(
+  File "/home/admin123/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1563, in __init__
+    ext = inspect_excel_format(
+  File "/home/admin123/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1419, in inspect_excel_format
+    with get_handle(
+  File "/home/admin123/.local/lib/python3.10/site-packages/pandas/io/common.py", line 872, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/admin123/Desktop/test3.xlsx'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 154-192-688
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 676-335-288
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/1new-article-working-without-image.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/1new-article-working-without-image.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/1new-article-working-without-image.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-132-563
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 149-642-664
+INFO:werkzeug: * Detected change in '/home/admin123/Desktop/flask2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+usage: 1new-article-working-without-image.py [-h] [--wp_url WP_URL]
+                                             [--excel_path EXCEL_PATH]
+                                             [--content_prompt CONTENT_PROMPT]
+                                             [--api_key API_KEY]
+1new-article-working-without-image.py: error: argument --content_prompt: expected one argument
+usage: 1new-article-working-without-image.py [-h] [--wp_url WP_URL]
+                                             [--excel_path EXCEL_PATH]
+                                             [--content_prompt CONTENT_PROMPT]
+                                             [--api_key API_KEY]
+1new-article-working-without-image.py: error: unrecognized arguments: the test case on workghosting topic
